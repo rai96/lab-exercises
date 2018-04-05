@@ -9,7 +9,7 @@ my_vector <- c(my_num, initials)
 vector_sum <- sum(my_vector)
 
 # Describe why this doesn't work: 
-# 
+# doesnt work because the c method is combining an integer and a string? 
 
 install.packages("stringr")
 
