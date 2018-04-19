@@ -1,16 +1,17 @@
 # Exercise 7: DPLYR practice with NBA data
-# install.packages("dplyr")
+#install.packages("dplyr")
 library(dplyr)
 
+#setwd("~/Desktop/INFO 201/lab-exercises/week-4")
 # Read in the NBA team data of the 2016-2017 season from the data directory  
 # into a variable called `team.data` using `read.csv`
-
+team.data <- read.csv("/data/team.data")
 
 # The data.frame team.data should now be accessible to you. 
 # View it, and get some basic information about the number of rows/columns. 
 # Note the "X" preceding some of the column titles as well as the "*" 
 # following the names of teams that made it to the playoffs that year.
-
+View(team.data)
 
 
 # Add a column that gives the turnovers to steals ratio (TOV / STL) for each team
